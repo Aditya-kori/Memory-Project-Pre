@@ -1,9 +1,9 @@
 `include "uvm_pkg.sv"
 import uvm_pkg::*;
 `include "mem_common.sv"
+`include "mem_assert.sv"
 `include "mem_tx.sv"
 `include "memory.v"
-`include "mem_assert.sv"
 `include "mem_intrf.sv"
 `include "mem_driver.sv"
 `include "mem_monitor.sv"
